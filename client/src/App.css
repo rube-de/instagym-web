@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: -webkit-fill-available;
+}
+
+.left {
+  flex: 5 1 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: flex-end;
+}
+
+.right {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.statsbox {
+  flex: 3 1 auto;
+}
+.webcambox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.webcam {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
